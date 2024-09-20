@@ -32,12 +32,12 @@
 
   <button type="button" class="btn btn-light position-fixed top-0 end-0 m-3" id="dark-light-btn">Dark Mode</button>
   
-  <div class="vh-100 border border-dark text-center d-flex flex-column align-items-center justify-content-center" id="container">
+  <div class="container-fluid vh-100 text-center d-flex flex-column align-items-center justify-content-center" id="container">
     <h1 class="col-12 fs-1" id="title">Roman <br> Numeral <br> Converter</h1>
-    <div id="input-container" class="col-4 h-25 text-bg-dark rounded-4 m-4 d-flex flex-column justify-content-center align-items-center">
+    <div id="input-container" class="col-8 col-sm-4 h-25 text-bg-dark rounded-4 m-4 d-flex flex-column justify-content-center align-items-center">
       <label for="input-number" id="label-input" class="m-3 fs-3">Enter a Number:</label>
-      <input type="number" name="number" id="number" class="col-5 m-3 rounded-2 border border-light">
-      <button type="button" id="convert-btn" class="btn btn-warning col-3 m-3 border border-light rounded-2">Convert</button>
+      <input type="number" name="number" id="number" class="col-8 col-sm-5 m-3 rounded-2 border border-light">
+      <button type="button" id="convert-btn" class="btn btn-warning col-auto m-3 border border-light rounded-2">Convert</button>
     </div>
     <span id="output" class="col-4 rounded-3 text-bg-dark p-3 fs-3 text-uppercase fw-bold visually-hidden"></span>
   </div>
